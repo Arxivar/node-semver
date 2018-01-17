@@ -4,10 +4,17 @@
   "description": "The semantic version parser used by npm.",
   "main": "semver.js",
   "scripts": {
-    "test": "tap test/*.js --cov -J"
+    "test": "tap test/*.js --cov -J",
+    "build": "webpack"
   },
   "devDependencies": {
-    "tap": "^10.7.0"
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^22.1.1",
+    "tap": "^10.7.0",
+    "webpack": "^3.10.0"
   },
   "license": "ISC",
   "repository": "https://github.com/npm/node-semver",
