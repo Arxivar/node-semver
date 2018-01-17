@@ -20,10 +20,5 @@
   "repository": "https://github.com/npm/node-semver",
   "bin": {
     "semver": "./bin/semver"
-  },
-  "files": [
-    "bin",
-    "range.bnf",
-    "semver.js"
-  ]
+  }
 }
